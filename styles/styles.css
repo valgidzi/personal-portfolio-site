@@ -1,11 +1,13 @@
 body {
   display: grid;
   grid-template-rows: 1fr 3fr 1fr;
-  font-family: 'Fugaz One'
+  font-family: 'Fugaz One';
+  background-color: gainsboro;
 }
 
 .main {
   text-align: center;
+  color: crimson;
 }
 
 header {
@@ -26,4 +28,13 @@ nav ul, footer ul {
 
 a:link {
   text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: gray;
+}
+
+header a:visited {
+  color: black;
 }
