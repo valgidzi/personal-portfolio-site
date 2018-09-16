@@ -7,16 +7,6 @@ header {
   text-align: center;
 }
 
-ul {
-  list-style: none;
-}
-
-nav ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
 footer, nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -24,28 +14,11 @@ footer, nav {
 
 footer h4, nav h4 {
   text-align: left
-  /* display: flex;
-  flex-direction: row;
-  justify-content: flex-start; */
 }
 
-footer ul {
+nav ul, footer ul {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
 }
-
-/* nav {
-  display: flex;
-  flex-direction: row;
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-}
-
-footer {
-  display: flex;
-  flex-direction: row;
-} */
