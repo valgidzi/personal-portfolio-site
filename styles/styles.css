@@ -17,12 +17,12 @@ nav ul {
   justify-content: space-around;
 }
 
-footer {
+footer, nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-footer h4 {
+footer h4, nav h4 {
   text-align: left
   /* display: flex;
   flex-direction: row;
