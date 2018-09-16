@@ -12,6 +12,10 @@ footer, nav {
   grid-template-columns: 1fr 1fr;
 }
 
+nav h4 {
+  font-family: 'Tangerine';
+}
+
 footer h4, nav h4 {
   text-align: left
 }
