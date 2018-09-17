@@ -1,0 +1,32 @@
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  list-style: none;
+}
+
+.calculator {
+  grid-column: 1 / 2;
+}
+
+.adagrams {
+  grid-column: 3 / 4;
+}
+
+.grocery {
+  grid-column: 2 / 3;
+}
+
+.projects .calculator img {
+  width: 100px;
+  height: 120px;
+}
+.projects .adagrams img {
+  width: 180px;
+  height: 120px;
+}
+
+.projects .grocery img {
+  width: 140px;
+  height: 120px
+}
