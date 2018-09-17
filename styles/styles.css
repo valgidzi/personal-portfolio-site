@@ -1,6 +1,5 @@
 body {
   display: flex;
-  /* grid-template-rows: 1fr 3fr 1fr; */
   min-height: 100vh;
   flex-direction: column;
   font-family: 'Fugaz One';
@@ -13,6 +12,27 @@ body {
   flex: 1;
 }
 
+.main .menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  color: black;
+  list-style: none;
+  font-size: 25px;
+}
+
+.menu .portfolio {
+  grid-column: 1 / 3;
+}
+
+.about {
+  grid-column: 3 / 5;
+}
+
+.blog {
+  grid-column: 2 / 4;
+}
+
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -21,9 +41,6 @@ header {
 header h1 {
   text-align: left;
 }
-/* footer {
-  flex-shrink: 0;
-} */
 
 nav ul, footer ul {
   display: flex;
