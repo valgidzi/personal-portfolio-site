@@ -65,10 +65,6 @@ a:link {
 }
 
 a:visited {
-  color: gray;
-}
-
-header a:visited {
   color: black;
 }
 
