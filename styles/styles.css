@@ -10,6 +10,9 @@ body {
   text-align: center;
   color: crimson;
   flex: 1;
+  background-image: url('../images/crumpled-paper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main .menu {
