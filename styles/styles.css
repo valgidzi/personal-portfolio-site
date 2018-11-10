@@ -2,7 +2,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: 'Fugaz One';
+  font-family: 'Roboto';
   background-color: gainsboro;
 }
 
@@ -13,6 +13,7 @@ body {
   background-image: url('../images/crumpled-paper.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Open-Sans';
 }
 
 .main .menu {
