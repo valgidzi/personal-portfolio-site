@@ -2,7 +2,6 @@ body {
   font-family: 'Lora';
   background-color: aliceblue;
   color: white;
-  padding: 5rem;
   border: 3rem;
   margin: 2rem;
   background-image: url('../images/capri.jpg');
@@ -103,10 +102,17 @@ body {
 
 }
 
+.menu p {
+  margin-bottom: 0;
+}
 
+.menu {
+  margin-bottom: 20px;
+}
 
-
-
+sub {
+  font-size: 1.5rem;
+}
 
 nav ul, footer ul {
   display: flex;
@@ -116,10 +122,16 @@ nav ul, footer ul {
 }
 
 
-
 a:link {
   text-decoration: none;
   color: white;
+}
+.menu a:hover {
+  color: black;
+}
+
+body a:hover {
+  color: lightgrey;
 }
 
 a:visited {
